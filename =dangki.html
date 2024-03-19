@@ -4,14 +4,19 @@
         <style>
             .input{
                 margin-bottom: 1cm;
+                height: 1cm;
+                border-radius: 10px;
+                width: 200px;
             }
             .kichcokhung{
-                width: 12cm;
-                margin-top: 1cm;
-                margin-left: 12cm;
-                background-image: url('https://vnreview.vn/image/16/09/95/1609955.jpg');
+                width: 300px;
+                background: transparent;
                 background-size: cover;
-                height: 5cm;
+                height: 8cm;
+                text-align: center;
+                border-radius: 10px;
+                backdrop-filter: blur(2px);
+                color:rgb(69, 66, 222)
             }
             .chu_y{
                 font-size: normal;
@@ -22,37 +27,40 @@
                 font-size: large;
             }
             body{
-                background-image: url('https://img.thuthuattinhoc.vn/uploads/2019/08/15/anh-con-duong-cao-toc-dep_064456823.jpg');
+                background-image: url('https://hanoispiritofplace.com/wp-content/uploads/2017/11/hinh-nen-ban-dem-2.jpg');
                 background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
             }
             .chu_thongtindangnhap{
-                background-color: blanchedalmond;
-                font-size: x-large;
                 width: 7.5cm;
-                margin-top: 5cm;
-                margin-left: 14.5cm;
+                color:azure;
             }
             .khung_dangnhap-dangki{
-                width: 2.5cm;
+                width: 150px;
                 height: 0.8cm;
-                background-color: rgb(12, 11, 11);
-                margin-top: 1cm;
-                padding-left: 0.4cm;
-                padding-top: 0.2cm;
+                background-color: rgb(220, 199, 199);
+                color: rgb(27, 20, 20);
+                border-radius: 15px;
+                padding-top: 0.1cm;
+                font-size: large;
+                margin-left:75px;
+            }
+            .chu_dangki{
                 color: white;
-                margin-left: 6cm;
-                border-radius: 30%;
             }
         </style>
     </head>
     <body>
         <form>
-            <p class="chu_thongtindangnhap">THÔNG TIN ĐĂNG NHẬP</p>
             <fieldset class="kichcokhung"> 
-                    Tài Khoản: <input class="input" type="text" name="firstname"/> <br/>  
-                    Mật Khẩu:  <input class="input" type="text" name="lastname"/> <br/> 
+                    <h1 class="chu_thongtindangnhap">ĐĂNG NHẬP</h1>
+                    <input class="input" type="text" placeholder="Tên đăng nhập" required> <i clas='bx bxs-user'></i></i> <br/>
+                    <input class="input" type="password" placeholder="mật khẩu" required/> <br/> 
                     <a href="file:///D:/cautrucdlvagiaithuat/otooooomoinhta.html"><div class="khung_dangnhap-dangki"> Đăng Nhập </div></a>
-                    
+                    <p class="chu_dangki">Không có tài khoản? <a class="dangki" href="#">Đăng kí</a></p> 
             </fieldset>
         </form>
     </body>
