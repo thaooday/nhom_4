@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Banxe</title>
+        <style>
+            .logo{
+                width: 200px;
+                height: 100px;
+                margin: 20px;
+                float:left;
+            }
+            .danhmuc{
+                display: flex;
+                align-items: center;
+                webkit-box-shadow: 0 8px 6px -6px black;
+                -moz-box-shadow: 0 8px 6px -6px black;
+                box-shadow: 0 8px 6px -6px black;
+                background-color: rgb(225, 97, 97);
+            }
+            .dau3{
+                margin-left: 1cm;
+                font-size: large;
+            }
+            .sau3{
+                margin-left: 1cm;
+                font-size: large;
+            }
+            .h3{
+                width: 9cm;
+                text-align: center;
+                margin-left: 1cm;
+            }
+            .form{
+                border-width: 1px;
+                border-color:black;
+                border-style: solid;
+                width: 12cm;
+                height: 12cm;
+                margin-top: 2cm;
+                background-color: rgb(185, 101, 101);
+                margin-left: 25cm;
+            }
+            .dinhgia{
+                background-color: blueviolet;
+                font-size: larger;
+                height: +1cm;
+                padding-top: 0.5cm;
+                width: 9.2cm;
+            }
+            body{
+                background-image: url('https://wallpaperaccess.com/full/432779.jpg');
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="danhmuc">
+            <img class="logo" src="https://www.carmudi.vn/images/logo.png">
+            <span class="dau3">Mua xe</span>
+            <span class="dau3">Bán xe</span>
+            <span class="dau3">Giới thiệu</span>
+            <span style="margin-right: 10cm" class="dau3">Tin tức</span>
+            <span style="background-color: brown; width:3cm; height: 1.5cm; text-align:center; border-radius: 20px; padding-top:0.6cm " class="sau3"><i class='bx bx-envelope'></i>Đăng tin</span>
+            <span class="sau3"><i class='bx bxs-phone-call'></i>0938119439</span>
+            <span class="sau3"><i class='bx bx-universal-access'></i>Tài khoản</span>
+        </div>
+        <form class="form">
+            <h3 class="h3">Nhập thông tin chi tiết của bạn và nhận giá xe của bạn ngay lập tức</h3>
+            <table style="margin-left: 1cm">
+                <tr>
+                    <td>
+                        <p>Hãng xe</p>
+                        <input type="text" placeholder="Nhập hãng xe">
+                        <p>Phiên bản</p>
+                        <input type="text" placeholder="Nhập phiên bản">
+                        <p>Số km đã đi</p>
+                        <input type="text" placeholder="Nhập số km">
+                    </td>
+                    <td>
+                        <p>Dòng xe</p>
+                        <input type="text" placeholder="Nhập dòng xe">
+                        <p>Năm sản xuất</p>
+                        <input type="number" placeholder="Nhập năm sản xuất">
+                        <p>Số điện thoại</p>
+                        <input type="phonenumber" placeholder="096xxxx">
+                    </td>
+                </tr>
+            </table>
+            <p class="h3 dinhgia">Định giá và bán xe ngay</p>
+            <p class="h3">Để tiếp tục, tôi đồng ý với <a href="#">điều khoản sử dụng</a>, <a href="#">chính sách quyền riêng tư</a> & <a href="#">điều khoản niên yết</a>.</p>
+        </form>
+    </body>
+</html>
